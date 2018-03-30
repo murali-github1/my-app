@@ -3,17 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './components/quote/quote.component';
-
+import {ClaimsComponent} from './components/claims/claims.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuoteComponent
+   
   ],
   imports: [
     BrowserModule
   ],
-  providers: [QuoteComponent],
+  providers: [ QuoteComponent,ClaimsComponent ],
   bootstrap: [ AppComponent]
 })
 export class AppModule { }
